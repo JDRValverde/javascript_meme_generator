@@ -1,6 +1,11 @@
 import React from "react";
 
 export default function Meme() {
+
+    function handleClick() {
+        console.log("I was clicked!")
+    }
+
     return (
         <main className="form">
             <form className="form">
